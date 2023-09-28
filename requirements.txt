@@ -2,5 +2,3 @@ Flask
 CORS 
 Gunicorn
 flask_cors
-load_dotenv
-dotenv
