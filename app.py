@@ -7,7 +7,8 @@ from flask_cors import CORS  # Import CORS from flask_cors
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)  # Add this line to enable CORS for your app
+ # Add this line to enable CORS for your app
+CORS(app, resources={r"/api/*": {"origins": "https://foota.onrender.com"}})
 # Connect to MongoDB using the MONGO_URI environment variable
 football_players = [
     {
