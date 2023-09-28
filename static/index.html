@@ -68,7 +68,7 @@
 
          /* Fireworks animation */
   
-.confetti{
+#confetti{
     display: none;
   position: absolute;
   left: 0;
@@ -91,13 +91,13 @@
         <button id="makeGuess">Make Guess</button>
         <div id="output"></div>
     
-        <canvas class="confetti"></canvas>
+        <canvas id="confetti"></canvas>
     </div>
 
     <script>
         // JavaScript code for interacting with the API
         const output = document.getElementById('output');
-        const confetti = document.querySelector('.confetti');
+        const confetti = document.getElementById('confetti');
 
         // Function to play fireworks animation
         function playFireworks() {
