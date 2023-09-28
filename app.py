@@ -1,10 +1,8 @@
 from flask import Flask, request, jsonify, send_from_directory
 import random
-from dotenv import load_dotenv
 import os
 from flask_cors import CORS  # Import CORS from flask_cors
 
-load_dotenv()
 
 app = Flask(__name__)
  # Add this line to enable CORS for your app
