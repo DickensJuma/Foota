@@ -37,7 +37,7 @@ football_players = [
         ]
     },
     {
-        "name": "Kylian Mbappé",
+        "name": "Kylian Mbappe",
         "facts": [
             "He is a huge fan of anime and the Dragon Ball series.",
             "He pledged to donate his entire World Cup earnings to charity.",
@@ -100,7 +100,7 @@ football_players = [
         ]
     },
     {
-    "name": "N'Golo Kanté",
+    "name": "N'Golo Kante",
     "facts": [
         "He is known for his exceptional work rate and ability to cover a large portion of the pitch during matches.",
         "He won back-to-back Premier League titles with Leicester City and Chelsea, earning the nickname 'The Engine.'",
@@ -154,7 +154,7 @@ football_players = [
     ]
 },
 {
-    "name": "Sadio Mané",
+    "name": "Sadio Mane",
     "facts": [
         "He is known for his incredible speed and dribbling abilities, making him a threat on the wing.",
         "He has played a crucial role in Liverpool's Premier League and UEFA Champions League successes.",
@@ -208,7 +208,7 @@ football_players = [
     ]
 },
 {
-    "name": "Luka Modrić",
+    "name": "Luka Modric",
     "facts": [
         "He is a Croatian midfielder known for his exceptional passing and playmaking abilities.",
         "He won the Golden Ball as the best player of the 2018 FIFA World Cup.",
@@ -217,7 +217,7 @@ football_players = [
     ]
 },
 {
-    "name": "N'Golo Kanté",
+    "name": "N'Golo Kante",
     "facts": [
         "He is a French midfielder known for his incredible work rate and ball-winning abilities.",
         "He played a key role in France's victory at the 2018 FIFA World Cup.",
@@ -252,15 +252,7 @@ football_players = [
         "He has a sweet tooth and is nicknamed 'The Chocolatier' by his fans."
     ]
 },
-{
-    "name": "Gareth Bale",
-    "facts": [
-        "He is a Welsh forward known for his incredible speed and ability to score from long distances.",
-        "He made a name for himself at Tottenham Hotspur before joining Real Madrid.",
-        "He is passionate about golf and even has a golf course in his backyard.",
-        "He has represented Wales in multiple European Championships and FIFA World Cup tournaments."
-    ]
-},
+
 {
     "name": "Manuel Neuer",
     "facts": [
@@ -271,39 +263,220 @@ football_players = [
     ]
 },
 {
-    "name": "Harry Kane",
+    "name": "Zlatan Ibrahimović",
     "facts": [
-        "He is an English striker renowned for his clinical finishing and goal-scoring prowess.",
-        "He has consistently been one of the top scorers in the English Premier League.",
-        "He is an avid NFL fan and has attended games in the United States.",
-        "He is actively involved in charity work and has donated to children's hospitals."
+        "A charismatic and talented striker known for his incredible goal-scoring ability.",
+        "He has played for top clubs across Europe, including Barcelona, PSG, and Manchester United.",
+        "He is known for his witty and confident personality in interviews.",
+        "He has won league titles in multiple countries."
+    ]
+},{
+    "name": "Paul Pogba",
+    "facts": [
+        "Known for his skillful dribbling and ability to control the midfield.",
+        "Pogba returned to Manchester United from Juventus for a then-world record transfer fee.",
+        "He has won the FIFA World Cup with the French national team.",
+        "Pogba is known for his unique hairstyles and fashion sense."
+    ]
+},
+{
+    "name": "Edinson Cavani",
+    "facts": [
+        "A prolific Uruguayan striker with a strong aerial presence and goal-scoring ability.",
+        "He has played for top clubs like Napoli, Paris Saint-Germain, and Manchester United.",
+        "He is known for his tireless work ethic and commitment on the field.",
+        "He is one of Uruguay's all-time leading goal scorers."
+    ]
+},
+{
+    "name": "Hakim Ziyech",
+    "facts": [
+        "A creative Moroccan midfielder known for his dribbling skills and playmaking abilities.",
+        "He joined Chelsea in the Premier League and quickly became a key player for the club.",
+        "He is known for his precise set-piece deliveries and ability to unlock defenses.",
+        "He has represented Morocco in international competitions."
+    ]
+},
+{
+    "name": "Thomas Muller",
+    "facts": [
+        "A versatile German forward known for his intelligence and positioning on the field.",
+        "He has won numerous Bundesliga titles and the FIFA World Cup with the German national team.",
+        "He is known for his unique playing style and ability to contribute both as a scorer and playmaker.",
+        "He has a great sense of humor and is often seen joking with teammates."
+    ]
+},
+{
+    "name": "Bruno Fernandes",
+    "facts": [
+        "A Portuguese midfielder known for his vision, passing ability, and goal-scoring prowess.",
+        "He joined Manchester United in the Premier League and quickly became a fan favorite.",
+        "He is known for his free-kick taking skills and his leadership on the pitch.",
+        "He has represented Portugal in international competitions."
+    ]
+},
+{
+    "name": "Erling Haaland",
+    "facts": [
+        "A young Norwegian striker known for his incredible speed and goal-scoring record.",
+        "He made a name for himself at RB Salzburg before moving to Borussia Dortmund.",
+        "He is known for his humility and dedication to his craft.",
+        "He has a reputation for scoring in almost every game he plays."
+    ]
+},
+{
+    "name": "Keylor Navas",
+    "facts": [
+        "A Costa Rican goalkeeper known for his exceptional reflexes and shot-stopping ability.",
+        "He gained recognition during his time at Real Madrid, where he won multiple Champions League titles.",
+        "He is known for his humble personality and dedication to his position.",
+        "He is considered one of the best goalkeepers in the world."
+    ]
+},
+{
+    "name": "Raheem Sterling",
+    "facts": [
+        "An English forward known for his dribbling skills, pace, and goal-scoring ability.",
+        "He has been a key player for Manchester City and the English national team.",
+        "He is known for his activism and efforts to combat racism in football.",
+        "He is one of the top English talents in world football."
     ]
 },
 {
     "name": "Sadio Mané",
     "facts": [
-        "He is a Senegalese forward known for his lightning-fast pace and dribbling skills.",
-        "He played a key role in Liverpool's success in the English Premier League and the UEFA Champions League.",
-        "He comes from a humble background and has funded the construction of a school and hospital in Senegal.",
-        "He is known for his energetic goal celebrations."
+        "A Senegalese forward known for his pace, dribbling, and goal-scoring ability.",
+        "He has been a key player for Liverpool and played a crucial role in their Premier League and Champions League victories.",
+        "He is known for his philanthropic efforts, including funding the construction of a school in Senegal.",
+        "He is considered one of the best African players in the world."
     ]
 },
 {
-    "name": "Antoine Griezmann",
+    "name": "Sergio Aguero",
     "facts": [
-        "He is a French forward who can play as an attacking midfielder or striker.",
-        "He won the Golden Boot as the top scorer in the 2016 UEFA European Championship.",
-        "He is an esports enthusiast and has his own esports organization called Grizi Esport.",
-        "He often celebrates his goals with unique dances and gestures."
+        "An Argentine striker known for his goal-scoring ability and agility.",
+        "He spent several successful seasons at Manchester City in the Premier League.",
+        "He holds the record for the most hat-tricks in Premier League history.",
+        "He has represented the Argentine national team in multiple World Cups."
     ]
-}
-# Continue adding more international football players and their fun facts
-
-# Feel free to add more players and facts as needed
-
-# Continue adding more players and their facts here
-
-
+},
+{
+    "name": "Thiago Alcantara",
+    "facts": [
+        "A Spanish midfielder known for his passing accuracy and technique.",
+        "He has played for top clubs like Barcelona, Bayern Munich, and Liverpool.",
+        "He is known for his ability to control the tempo of the game from midfield.",
+        "He has won numerous domestic and international titles."
+    ]
+},
+{
+    "name": "Karim Benzema",
+    "facts": [
+        "A French striker known for his technical skills and goal-scoring ability.",
+        "He has had a long and successful career at Real Madrid in La Liga.",
+        "He is known for his link-up play and assists in addition to scoring goals.",
+        "He has won numerous titles with Real Madrid."
+    ]
+},
+{
+    "name": "Frenkie de Jong",
+    "facts": [
+        "A Dutch midfielder known for his dribbling and versatility in midfield.",
+        "He gained recognition at Ajax before moving to Barcelona in La Liga.",
+        "He is known for his ability to control the ball in tight spaces.",
+        "He has represented the Netherlands in international competitions."
+    ]
+},
+{
+    "name": "Marquinhos",
+    "facts": [
+        "A Brazilian defender known for his versatility and leadership on the field.",
+        "He has been a consistent performer for Paris Saint-Germain (PSG) in Ligue 1.",
+        "He is known for his ability to play as a center-back or defensive midfielder.",
+        "He has won numerous domestic titles with PSG."
+    ]
+},
+{
+    "name": "Kai Havertz",
+    "facts": [
+        "A young German midfielder known for his technical skills and versatility.",
+        "He plays for Chelsea in the Premier League and has a promising future.",
+        "He is known for his composure in front of goal and ability to create chances.",
+        "He has already represented Germany in international competitions."
+    ]
+},
+{
+    "name": "Jadon Sancho",
+    "facts": [
+        "An English winger known for his dribbling skills and pace.",
+        "He transferred from Borussia Dortmund to Manchester United in the Premier League.",
+        "He is known for his versatility in attack and creative playmaking.",
+        "He has earned caps for the England national team."
+    ]
+},
+{
+    "name": "Luis Suarez",
+    "facts": [
+        "A Uruguayan striker known for his goal-scoring instincts and tenacity.",
+        "He has played for clubs like Barcelona and now plays for Atlético Madrid in La Liga.",
+        "He is known for his passion on the field and his fierce competitiveness.",
+        "He has represented Uruguay in multiple World Cups."
+    ]
+},
+{
+    "name": "Lautaro Martínez",
+    "facts": [
+        "An Argentine forward known for his goal-scoring ability and work ethic.",
+        "He plays for Inter Milan in Serie A and the Argentina national team.",
+        "Martínez is known for his partnership with Lionel Messi in the national team.",
+        "He has represented Argentina in Copa America and World Cup tournaments."
+    ]
+},
+{
+    "name": "Joao Cancelo",
+    "facts": [
+        "A Portuguese right-back known for his defensive skills and attacking contributions.",
+        "He plays for Manchester City in the Premier League and the Portugal national team.",
+        "He is known for his ability to deliver accurate crosses and set up goals.",
+        "He has won domestic league titles and the UEFA European Championship with Portugal."
+    ]
+},
+{
+    "name": "Paulo Dybala",
+    "facts": [
+        "An Argentine forward known for his dribbling skills and creativity.",
+        "He plays for Juventus in Serie A and the Argentina national team.",
+        "He is known for his ability to score from free-kicks and long-range shots.",
+        "He has won domestic league titles and played alongside some of the best players in the world."
+    ]
+},
+{
+    "name": "Leon Goretzka",
+    "facts": [
+        "A German midfielder known for his box-to-box playing style and physicality.",
+        "He plays for Bayern Munich in the Bundesliga and the Germany national team.",
+        "He is known for his goal-scoring ability from midfield and strong presence in both attack and defense.",
+        "He has won domestic league titles and represented Germany in international competitions."
+    ]
+},
+{
+    "name": "Christian Pulisic",
+    "facts": [
+        "An American winger known for his speed and dribbling skills.",
+        "He plays for Chelsea in the Premier League and the United States national team.",
+        "Pulisic is known for breaking barriers as a top American talent in European football.",
+        "He has a bright future ahead and is regarded as a rising star."
+    ]
+},
+{
+    "name": "Riyad Mahrez",
+    "facts": [
+        "An Algerian winger known for his pace and ability to cut inside and score goals.",
+        "He plays for Manchester City in the Premier League and the Algeria national team.",
+        "Mahrez is known for his dribbling and set-piece expertise.",
+        "He played a key role in Leicester City's historic Premier League title win."
+    ]
+},
 ]
 # Shuffle the list of football players
 random.shuffle(football_players)

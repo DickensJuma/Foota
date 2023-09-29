@@ -36,6 +36,11 @@
             justify-content: space-around;
             align-items: center;
         }
+        .how-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         button {
             background-color: #007bff;
             color: #fff;
@@ -65,6 +70,9 @@
             color: #000;
             background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
         }
+        br {
+            margin-bottom: 2px;
+        }
 
          /* Fireworks animation */
   
@@ -77,6 +85,94 @@
   width: 100%;
 }
 
+/* Style the modal container */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+}
+
+/* Style the modal content */
+.modal-content {
+  background-color: #fefefe;
+  color: #000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.close:hover,
+.close:focus {
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Heading Styles */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Instructions List Styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Instructions Styles (optional) */
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#howToPlayButton {
+    margin-top: 20px;
+    background-color: #ff8f9d;
+}
 
     </style>
 </head>
@@ -87,8 +183,30 @@
             <button id="startGame">Start New Game</button>
             <button id="getFacts">Get Fun Facts</button>
         </div>
+
         <input type="text" id="userGuess" placeholder="Your Guess">
+        <div class="how-container">
         <button id="makeGuess">Make Guess</button>
+        <button id="howToPlayButton"><svg viewBox="64 64 896 896" focusable="false" data-icon="question-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M623.6 316.7C593.6 290.4 554 276 512 276s-81.6 14.5-111.6 40.7C369.2 344 352 380.7 352 420v7.6c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V420c0-44.1 43.1-80 96-80s96 35.9 96 80c0 31.1-22 59.6-56.1 72.7-21.2 8.1-39.2 22.3-52.1 40.9-13.1 19-19.9 41.8-19.9 64.9V620c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-22.7a48.3 48.3 0 0130.9-44.8c59-22.7 97.1-74.7 97.1-132.5.1-39.3-17.1-76-48.3-103.3zM472 732a40 40 0 1080 0 40 40 0 10-80 0z"></path></svg>  How to Play</button>
+        </div>
+        <div id="howToPlayModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>How to Play</h2>
+              <p>Instructions for playing the game go here.</p>
+              <ol>
+                <li>Click on the "Start New Game" button to start a new game</li>
+                <li>Click on the "Get Fun Facts" button to get some fun facts about the player</li>
+                <li>Enter your guess in the text box and click on the "Make Guess" button</li>
+                <li>If your guess is correct within the four(4) chances, you win!,</li>
+                <li>Click on the "Start New Game" button to start a another new game</li>
+  
+              </ol>
+
+
+            </div>
+          </div>
+
         <div id="output"></div>
     
         <canvas id="confetti"></canvas>
@@ -104,13 +222,35 @@
             confetti.style.display = 'block';
             setTimeout(() => {
                 confetti.style.display = 'none';
-            }, 8000); // Adjust the duration (in milliseconds) as needed
+            }, 10000); // Adjust the duration (in milliseconds) as needed
         }
 
         const startGameButton = document.getElementById('startGame');
         const getFactsButton = document.getElementById('getFacts');
         const userGuessInput = document.getElementById('userGuess');
         const makeGuessButton = document.getElementById('makeGuess');
+        // Get the modal and button elements
+        const modal = document.getElementById('howToPlayModal');
+        const modalButton = document.getElementById('howToPlayButton');
+        const closeSpan = document.getElementsByClassName('close')[0];
+
+        // Open the modal when the button is clicked
+        modalButton.addEventListener('click', () => {
+        modal.style.display = 'block';
+        });
+
+        // Close the modal when the close button or outside the modal is clicked
+        closeSpan.addEventListener('click', () => {
+        modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+        });
+
+        
 
         // API endpoint URLs
         const startGameURL = 'https://foota.onrender.com/api/game/start';
