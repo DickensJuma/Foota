@@ -274,9 +274,9 @@ football_players = [
     "name": "Paul Pogba",
     "facts": [
         "Known for his skillful dribbling and ability to control the midfield.",
-        "Pogba returned to Manchester United from Juventus for a then-world record transfer fee.",
+        "He returned to Manchester United from Juventus for a then-world record transfer fee.",
         "He has won the FIFA World Cup with the French national team.",
-        "Pogba is known for his unique hairstyles and fashion sense."
+        "He is known for his unique hairstyles and fashion sense."
     ]
 },
 {
@@ -428,7 +428,7 @@ football_players = [
     "facts": [
         "An Argentine forward known for his goal-scoring ability and work ethic.",
         "He plays for Inter Milan in Serie A and the Argentina national team.",
-        "Martínez is known for his partnership with Lionel Messi in the national team.",
+        "He is known for his partnership with Lionel Messi in the national team.",
         "He has represented Argentina in Copa America and World Cup tournaments."
     ]
 },
@@ -464,7 +464,7 @@ football_players = [
     "facts": [
         "An American winger known for his speed and dribbling skills.",
         "He plays for Chelsea in the Premier League and the United States national team.",
-        "Pulisic is known for breaking barriers as a top American talent in European football.",
+        "He is known for breaking barriers as a top American talent in European football.",
         "He has a bright future ahead and is regarded as a rising star."
     ]
 },
@@ -473,7 +473,7 @@ football_players = [
     "facts": [
         "An Algerian winger known for his pace and ability to cut inside and score goals.",
         "He plays for Manchester City in the Premier League and the Algeria national team.",
-        "Mahrez is known for his dribbling and set-piece expertise.",
+        "He is known for his dribbling and set-piece expertise.",
         "He played a key role in Leicester City's historic Premier League title win."
     ]
 },
