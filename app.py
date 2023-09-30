@@ -2,11 +2,13 @@ from flask import Flask, request, jsonify, send_from_directory
 import random
 import os
 from flask_cors import CORS  # Import CORS from flask_cors
+from flask_compress import Compress
 
 
 app = Flask(__name__)
  # Add this line to enable CORS for your app
 CORS(app, resources={r"/api/*": {"origins": "https://foota.onrender.com"}})
+compress = Compress(app)
 # Connect to MongoDB using the MONGO_URI environment variable
 football_players = [
     {
