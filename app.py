@@ -498,14 +498,14 @@ def start_new_game():
     guesses_remaining = 4
 
     response_data = {
-        "message": "New game started!",
+        "message": "New game started! Click on the <strong> Get Fun Facts Button</strong> to get started.",
         "player_name": current_player["name"],
         "guesses_remaining": guesses_remaining,
     }
     return jsonify(response_data)
 
 # Function to get fun facts
-def get_fun_facts():
+def get_fun_facts(): 
     if not current_player:
         return jsonify({"message": "No active game. Start a new game to get facts."}), 400
 
