@@ -65,6 +65,16 @@ football_players = [
             "He and his wife, Anna, have a line of clothing and accessories."
         ]
     },
+     {
+        "name": "Pele",
+        "facts": [
+            "He is the only player to have won three FIFA World Cups (1958, 1962, and 1970).",
+            "He scored over 1,000 career goals and is often regarded as the greatest football player of all time.",
+            "He played for the New York Cosmos in the North American Soccer League (NASL) after his career in Brazil.",
+            "He was known for his remarkable goal-scoring ability and acrobatic style of play.",
+            "His real name is Edson Arantes do Nascimento."
+        ]
+    },
     {
         "name": "Mohamed Salah",
         "facts": [
@@ -129,7 +139,7 @@ football_players = [
     ]
 },
 {
-    "name": "Luka Modrić",
+    "name": "Luka Modric",
     "facts": [
         "He won the Ballon d'Or in 2018, breaking the Cristiano Ronaldo-Lionel Messi dominance.",
         "He played a pivotal role in Croatia's journey to the 2018 FIFA World Cup final.",
@@ -237,7 +247,7 @@ football_players = [
     ]
 },
 {
-    "name": "Andrés Iniesta",
+    "name": "Andres Iniesta",
     "facts": [
         "He is a Spanish midfielder known for his precise passing and vision.",
         "He played a crucial role in Spain's triumph at the 2010 FIFA World Cup.",
@@ -265,7 +275,7 @@ football_players = [
     ]
 },
 {
-    "name": "Zlatan Ibrahimović",
+    "name": "Zlatan Ibrahimovic",
     "facts": [
         "A charismatic and talented striker known for his incredible goal-scoring ability.",
         "He has played for top clubs across Europe, including Barcelona, PSG, and Manchester United.",
@@ -426,7 +436,7 @@ football_players = [
     ]
 },
 {
-    "name": "Lautaro Martínez",
+    "name": "Lautaro Martinez",
     "facts": [
         "An Argentine forward known for his goal-scoring ability and work ethic.",
         "He plays for Inter Milan in Serie A and the Argentina national team.",
